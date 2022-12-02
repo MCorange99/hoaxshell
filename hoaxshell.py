@@ -4,6 +4,7 @@
 # https://github.com/t3l3machus
 
 from http.server import HTTPServer, BaseHTTPRequestHandler
+import os
 import ssl, sys, argparse, base64, gnureadline, uuid, re
 from os import system, path
 from warnings import filterwarnings
@@ -547,7 +548,7 @@ def main():
 
 	try:
 		chill() if quiet else print_banner()
-		cwd = path.dirname(path.abspath(__file__))
+		cwd = os.environ["HOAXSHELL_ROOT"] or path.dirname(path.abspath(__file__))
 		
 		# Update utility
 		if args.update:

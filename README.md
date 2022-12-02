@@ -8,6 +8,7 @@
 ### Note:
 
 I just fixed the template paths so i can add hoaxshell to path
+To set the hoaxshell root path, set the `HOAXSHELL_ROOT` variable in your shell env
 
 ### ⚡ Check out the evolution of this tool -> [github.com/t3l3machus/Villain](https://github.com/t3l3machus/Villain) ⚡
 
