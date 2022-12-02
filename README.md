@@ -5,7 +5,11 @@
 [![License](https://img.shields.io/badge/License-BSD-red.svg)](https://github.com/t3l3machus/hoaxshell/blob/main/LICENSE.md)
 <img src="https://img.shields.io/badge/Maintained%3F-Yes-96c40f">
 
- ### ⚡ Check out the evolution of this tool -> [github.com/t3l3machus/Villain](https://github.com/t3l3machus/Villain) ⚡
+### Note:
+
+I just fixed the template paths so i can add hoaxshell to path
+
+### ⚡ Check out the evolution of this tool -> [github.com/t3l3machus/Villain](https://github.com/t3l3machus/Villain) ⚡
 
 #### :warning: As of 2022-10-18, hoaxshell is detected by AMSI ([malware-encyclopedia](https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?name=VirTool%3aPowerShell%2fXoashell.A&threatid=2147833654)). You need to obfuscate the generated payload in order to use. Check out this video on how to obfuscate manually and bypass MS Defender:
  - Example with Hoaxshell -> [youtube.com/watch?v=iElVfagdCD4](https://www.youtube.com/watch?v=iElVfagdCD4)
